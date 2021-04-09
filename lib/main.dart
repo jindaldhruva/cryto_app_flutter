@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       //new comment
       theme: ThemeData.dark().copyWith(
-          primaryColor: Colors.green, //change to blue
+          primaryColor: Colors.blueAccent, 
           scaffoldBackgroundColor: Colors.white),
       home: PriceScreen(),
     );
